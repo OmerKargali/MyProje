@@ -1,0 +1,135 @@
+@model VMProje
+@{
+
+    Proje? entity_Proje = null;
+    if (Model != null)
+    {
+        entity_Proje = Model.entity_Proje;
+    }
+}
+@if (entity_Proje != null)
+{
+
+    <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+        <div class="container d-lg-flex justify-content-between align-items-center">
+            <h1 class="mb-2 mb-lg-0">Portföy Detay</h1>
+            <nav class="breadcrumbs">
+                <ol>
+                    <li><a href="/Home/Portfolio">Anasayfa</a></li>
+                    <li class="current">Portföy Detay</li>
+                </ol>
+            </nav>
+        </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+        <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-8">
+                    <div
+                        class="portfolio-details-slider swiper init-swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+
+                        <script type="application/json" class="swiper-config">
+                            {
+                            "loop": true,
+                            "speed": 600,
+                            "autoplay": {
+                                "delay": 5000
+                            },
+                            "slidesPerView": "auto",
+                            "pagination": {
+                                "el": ".swiper-pagination",
+                                "type": "bullets",
+                                "clickable": true
+                            }
+                            }
+                        </script>
+                        @* @if (entity_Proje.Kategori == 1)
+                        { *@
+                        <div class="swiper-wrapper align-items-center" id="swiper-wrapper-109c8a6010596ecd64"
+                            aria-live="off"
+                            style="transition-duration: 0ms; transform: translate3d(-1712, 0px, 0px); transition-delay: 0ms;">
+
+                            <div class="swiper-slide swiper-slide-active" role="group" aria-label="1/4"
+                                data-swiper-slide-index="0">
+                                <img src="/assets/img/PortfolioDetay/DigerFoto1.jpeg" alt="">
+                            </div>
+
+                            <div class="swiper-slide swiper-slide-next" role="group" aria-label="2/4"
+                                data-swiper-slide-index="1">
+                                <img src="/assets/img/PortfolioDetay/DigerFoto2.jpeg" alt="">
+                            </div>
+
+                            <div class="swiper-slide" role="group" aria-label="3/4" data-swiper-slide-index="2">
+                                <img src="/assets/img/PortfolioDetay/DigerFoto3.jpeg" alt="">
+                            </div>
+
+                            <div class="swiper-slide swiper-slide-prev" role="group" aria-label="4/4"
+                                data-swiper-slide-index="3">
+                                <img src="/assets/img/PortfolioDetay/DigerFoto4.jpeg" alt="">
+                            </div>
+
+                        </div>
+                        <div
+                            class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                            <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"
+                                aria-current="true">
+                            </span>
+                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
+                                role="button" aria-label="Go to slide 2" aria-current="true">
+                            </span>
+                            <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"
+                                aria-current="true">
+                            </span>
+                            <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"
+                                aria-current="true">
+                            </span>
+                        </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="portfolio-info aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Proje Adı</h3>
+                        <ul>
+                            <li><strong>Proje Tarihi</strong></li>
+                            <li><strong>Proje URL</strong>: <a
+                                    href="@entity_Proje.ProjeLink">@entity_Proje.ProjeLink</a></li>
+                        </ul>
+                        <ul>
+                            <form asp-controller="Home" asp-action="BasvuruKaydet" method="post">
+                                <input type="hidden" name="ProjeId" value="@entity_Proje.ProjeId">
+                                <button type="submit" style="btn btn-info; margin-bottom: 0px" class="btn btn-success"
+                                    onclick="javascript:return confirm('İlgili Projeye Başvurmak İstediğinize Emin Misiniz?')">Projeye
+                                    Başvur</button>
+                            </form>
+                        </ul>
+                    </div>
+                    <div class="portfolio-info aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                        <h2>@entity_Proje.ProjeAdi</h2>
+                        <p>@entity_Proje.ProjeDetay</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+</main>
+    <script src="https://bootstrapmade.com/assets/js/demo.js?v=31"></script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-P7JSYB1CSP"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-P7JSYB1CSP');</script>
+    <script defer=""
+    src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+    integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+    data-cf-beacon="{&quot;rayId&quot;:&quot;8aff4ea2a83568b7&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfL4&quot;:true}},&quot;version&quot;:&quot;2024.7.0&quot;,&quot;token&quot;:&quot;68c5ca450bae485a842ff76066d69420&quot;}"
+    crossorigin="anonymous"></script>
+}

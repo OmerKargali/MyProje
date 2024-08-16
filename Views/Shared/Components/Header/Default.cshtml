@@ -1,0 +1,46 @@
+@model VMKullanici
+@{
+    ViewData["Title"] = "Hakkında";
+    Kullanici? entity_Kullanici = null;
+    if (Model != null)
+    {
+        entity_Kullanici = Model.entity_Kullanici;
+    }
+}
+@if (entity_Kullanici != null)
+{
+    <header id="header" class="header dark-background d-flex flex-column" style="">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+        <img src="@entity_Kullanici.ProfilFoto" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="" class="logo d-flex align-items-center justify-content-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">@entity_Kullanici.Adi @entity_Kullanici.Soyadi</h1>
+    </a>
+
+    <div class="social-links text-center">
+        <a href="https://www.x.com" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://www.facebook.com" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.skype.com" class="google-plus"><i class="bi bi-skype"></i></a>
+        <a href="https://www.linkedin.com" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+        <ul>
+            <li><a href="/Home/Index" class="active"><i class="bi bi-house navicon"></i>Anasayfa</a></li>
+            <li><a href="/Home/About"><i class="bi bi-person navicon"></i>Hakkında</a></li>
+            <li><a href="/Home/Resume"><i class="bi bi-file-earmark-text navicon"></i>Özgeçmiş</a></li>
+            <li><a href="/Home/Portfolio"><i class="bi bi-images navicon"></i>Portföy</a></li>
+            <li><a href="/Home/Services"><i class="bi bi-hdd-stack navicon"></i>Basvurularım</a></li>
+            <li><a href="/Home/Contact"><i class="bi bi-envelope navicon"></i>İletişim</a></li>
+            <li><a class="" asp-controller="Home" asp-area="" asp-action="LogOut">Çıkış</a></li>
+        </ul>
+    </nav>
+
+</header>
+}

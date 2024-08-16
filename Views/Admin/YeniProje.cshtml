@@ -1,0 +1,395 @@
+@model VMProje
+@{
+    ViewData["Title"] = "Yeni Basvuru Page";
+    Layout = null;
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeni Başvuru Sayfası</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+            font-family: "Besley", serif;
+            border: none;
+            outline: none;
+            text-decoration: none;
+            transition: 0.2s all linear;
+        }
+
+        ::-webkit-scrollbar {
+            width: 3px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--main);
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #000;
+        }
+
+        *::selection {
+            background: var(--main);
+            color: #000;
+        }
+
+        :root {
+            --main: #0631a9;
+            --box_shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.9);
+        }
+
+        /* Navbar */
+        .navbar {
+            position: fixed;
+            background: black;
+            box-shadow: var(--box_shadow);
+            padding: 0 20px;
+            height: 60px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 2fr 10fr 0.5fr 1fr;
+            align-items: center;
+            @*z-index:1000;*@
+        }
+
+        .logo h2 {
+            color: white;
+            position: absolute;
+            top: 30%;
+            left: 5%;
+            height: 100%;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .SearchBox {
+            position: relative;
+            width: 60%;
+            justify-self: center;
+        }
+
+        .SearchBox input {
+            background: #ccc;
+            height: 40px;
+            width: 100%;
+            min-width: 128px;
+            padding: 0 40px;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+
+        .SearchBox i {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            cursor: pointer;
+        }
+
+        .user {
+            position: relative;
+            height: 50px;
+            width: 50px;
+            justify-self: right;
+        }
+
+        img {
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            cursor: pointer;
+            object-fit: cover;
+        }
+
+        /* Navbar */
+
+        /* SideBar */
+        .SideBar {
+            position: fixed;
+            background: black;
+            width: 260px;
+            top: 60px;
+            overflow-x: hidden;
+            height: calc(100% - 60px);
+            @*z-index:10000;box-shadow:var(--box_shadow);*@
+        }
+
+        .SearchBox ul {
+            margin-top: 20px;
+        }
+
+        .SideBar ul li {
+            font-size: x-large;
+            width: 100%;
+        }
+
+        .SideBar ul li:hover {
+            background: #fff;
+        }
+
+        .SideBar ul li a {
+            color: #fff;
+            height: 60px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .SideBar ul li:hover a {
+            color: var(--main);
+        }
+
+        .SideBar ul li a i {
+            text-align: center;
+            font-size: 24px;
+            min-width: 60px;
+        }
+
+        /* SideBar */
+
+        /* Main Content Start */
+        .Main {
+            position: absolute;
+            top: 60px;
+            width: calc(100% - 260px);
+            min-height: calc(100vh - 60px);
+            left: 260px;
+            background: white;
+        }
+
+        .MainCard {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+            padding: 35px 20px;
+        }
+
+        .MainCard .Card {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: var(--box_shadow);
+            transition: 0.1s;
+        }
+
+        .Card .num {
+            color: var(--main);
+            font-size: 35px;
+            font-weight: 500;
+        }
+
+        .Card .name {
+            font-weight: 600;
+            color: #222;
+        }
+
+        .Card i {
+            font-size: 45px;
+            color: var(--main);
+            cursor: pointer;
+        }
+
+        /* Main Content End */
+
+        /* Chart */
+        .MainChart {
+            display: flex;
+            grid-template-columns: 2fr 1fr;
+            grid-gap: 20px;
+            width: 100%;
+            padding: 20px;
+            padding-top: 0;
+        }
+
+        .MainChart .Chart {
+            background: #fff;
+            box-shadow: var(--box_shadow);
+            padding: 20px;
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .MainChart .Chart h1 {
+            color: #222;
+            text-align: center;
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            max-width: 50px;
+            max-height: 50px;
+        }
+
+        form {
+            position: absolute;
+            left: 25%;
+            /* Formu sağa hizalar */
+            top: 22%;
+            /* Üstten uzaklığı ayarlar */
+            width: 50%;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            border-radius: 35px;
+
+        }
+
+        form input {
+            margin: 15px 0;
+            /* Üst ve alt margin */
+            width: 320px;
+            border-bottom: 2px solid black;
+        }
+
+
+        /* Responsive */
+
+        .SearchBox input {
+            padding: 0 20px;
+        }
+
+        .fa-bell {
+            margin-right: 5px;
+        }
+
+        .MainCard {
+            grid-template-columns: 1fr;
+        }
+
+        .doughnut-chart {
+            padding: 10px;
+        }
+
+        #doughnut {
+            padding: 0px;
+        }
+
+        .user {
+            height: 40px;
+            width: 40px;
+        }
+
+        .button {
+            border: 3 px;
+            border-color: #000;
+            font-size: x-large;
+            font-family: 'Times New Roman', Times, serif;
+            width: 100%;
+            background-color: rgb(98, 193, 98);
+            color: black;
+            border-radius: 3px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <h2>OK </h2>
+        </div>
+        <div class="SearchBox">
+            <input type="text" id="search" placeholder="Arama Yapınız...">
+            <label for="search"><i class="fas fa-search"></i></label>
+        </div>
+        <div class="SideBar"></div>
+        <i class="fas fa-bell"></i>
+        <div class="user">
+            <img src="/assets/img/admin.jpg" alt="">
+        </div>
+    </div>
+    <!-- Navbar -->
+
+
+    <div class="SideBar">
+        <ul>
+            <li><a href="/Admin/Index" class="active"><i class="bi bi-house navicon"></i>Anasayfa</a></li>
+            <li><a href="/Admin/YeniProje" class="active"><i class="bi bi-house navicon"></i>Proje Ekle</a></li>
+            <li><a href="/Admin/BasvuruYonet" class="active"><i class="bi bi-house navicon"></i>Başvuru Yönet</a>
+            </li>
+            <li><a class="active" asp-controller="Admin" asp-area="" asp-action="LogOut"><i
+                        class="bi bi-house navicon"></i>Çıkış</a></li>
+        </ul>
+        </nav>
+    </div>
+    <div class="Main">
+        <div>
+            <form asp-controller="Admin" asp-action="YeniProje" method="post">
+                <div class="login-form">
+                    <div class="control-group">
+                        @* <input type="hidden" name="id" asp-for="basvuruId"> *@
+                        <input type="text" name="Kategori" class="form-control" asp-for="Kategori">
+                        <label class="login-field-icon fui-user" for="login-name">Kategori</label>
+                    </div>
+                    <div class="control-group">
+                        <input type="text" name="ProjeAdi" class="form-control" asp-for="ProjeAdi">
+                        <label class="login-field-icon fui-user" for="login-name">Proje Adı</label>
+                    </div>
+                    <div class="control-group">
+                        <input type="text" name="ProjeDetay" class="form-control" asp-for="ProjeDetay">
+                        <label class="login-field-icon fui-user" for="login-name">Proje Detay</label>
+                    </div>
+                    <div class="control-group">
+                        <input type="text" name="ProjeKisaBilgi" class="form-control" asp-for="ProjeKisaBilgi">
+                        <label class="login-field-icon fui-user" for="login-name">Proje Kısa Bilgi</label>
+                    </div>
+                    <div class="control-group">
+                        <input type="url" name="ProjeLink" class="form-control" asp-for="ProjeLink">
+                        <label class="login-field-icon fui-user" for="login-name">Proje Link</label>
+                    </div>
+                    <div class="control-group">
+                        <input type="text" name="ProjeFoto" class="form-control" asp-for="ProjeFoto">
+                        <label class="login-field-icon fui-user" for="login-name">Proje Fotoğrafı</label>
+                    </div>
+
+                </div>
+                <a><button href="/Admin/YeniProje" name="ProjeEkle" class="button">Proje
+                        Ekle</button></a>
+            </form>
+
+        </div>
+
+        <div>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p style="color:red;">@error.ErrorMessage</p>
+            }
+        </div>
+    </div>
+
+</body>

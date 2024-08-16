@@ -1,0 +1,745 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/obj/Debug/net8.0/scopedcss/projectbundle/MyProje.bundle.scp.css",
+      "PackagePath": "staticwebassets/MyProje.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/Readme.txt",
+      "PackagePath": "staticwebassets/Readme.txt"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/css/dashboard.css",
+      "PackagePath": "staticwebassets/assets/css/dashboard.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/css/main.css",
+      "PackagePath": "staticwebassets/assets/css/main.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/css/style.css",
+      "PackagePath": "staticwebassets/assets/css/style.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/ArkaPlanFotoGSB.jpeg",
+      "PackagePath": "staticwebassets/assets/img/ArkaPlanFotoGSB.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/PortfolioDetay/DigerFoto1.jpeg",
+      "PackagePath": "staticwebassets/assets/img/PortfolioDetay/DigerFoto1.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/PortfolioDetay/DigerFoto2.jpeg",
+      "PackagePath": "staticwebassets/assets/img/PortfolioDetay/DigerFoto2.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/PortfolioDetay/DigerFoto3.jpeg",
+      "PackagePath": "staticwebassets/assets/img/PortfolioDetay/DigerFoto3.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/PortfolioDetay/DigerFoto4.jpeg",
+      "PackagePath": "staticwebassets/assets/img/PortfolioDetay/DigerFoto4.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/PortfolioDetay/DigerFoto5.jpeg",
+      "PackagePath": "staticwebassets/assets/img/PortfolioDetay/DigerFoto5.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/PortfolioDetay/DigerFoto6.jpeg",
+      "PackagePath": "staticwebassets/assets/img/PortfolioDetay/DigerFoto6.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/PortfolioDetay/DigerFoto7.jpeg",
+      "PackagePath": "staticwebassets/assets/img/PortfolioDetay/DigerFoto7.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/admin.jpg",
+      "PackagePath": "staticwebassets/assets/img/admin.jpg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/genclikFoto.jpeg",
+      "PackagePath": "staticwebassets/assets/img/genclikFoto.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/news-1.jpg",
+      "PackagePath": "staticwebassets/assets/img/news-1.jpg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/news-2.jpg",
+      "PackagePath": "staticwebassets/assets/img/news-2.jpg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/news-3.jpg",
+      "PackagePath": "staticwebassets/assets/img/news-3.jpg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/news-4.jpg",
+      "PackagePath": "staticwebassets/assets/img/news-4.jpg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/news-5.jpg",
+      "PackagePath": "staticwebassets/assets/img/news-5.jpg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/not-found.svg",
+      "PackagePath": "staticwebassets/assets/img/not-found.svg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/GenclikDegisimi1.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/GenclikDegisimi1.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/GenclikDegisimi3.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/GenclikDegisimi3.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/GenclikDegisimleri4.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/GenclikDegisimleri4.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/GenclikDegisimleri5.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/GenclikDegisimleri5.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/GenclikDegisimleri6.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/GenclikDegisimleri6.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/GenclikDeğisimi2.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/GenclikDeğisimi2.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/GenclikKampi2.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/GenclikKampi2.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/GenclikKampi3.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/GenclikKampi3.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/GenclikKampi4.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/GenclikKampi4.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/GenclikKampi5.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/GenclikKampi5.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/GenclikKampi6.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/GenclikKampi6.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/Yarismalar1.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/Yarismalar1.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/Yarismalar2.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/Yarismalar2.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/Yurt2.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/Yurt2.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/Yurt3.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/Yurt3.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/YurtTimeFoto.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/YurtTimeFoto.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/genclikkampifoto1.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/genclikkampifoto1.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/yarismalar3.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/yarismalar3.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/yarismalar4.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/yarismalar4.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/yarismalar5.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/yarismalar5.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/portfolio/yarismalar6.jpeg",
+      "PackagePath": "staticwebassets/assets/img/portfolio/yarismalar6.jpeg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/profile-img.jpg",
+      "PackagePath": "staticwebassets/assets/img/profile-img.jpg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/testimonials/testimonials-1.jpg",
+      "PackagePath": "staticwebassets/assets/img/testimonials/testimonials-1.jpg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/testimonials/testimonials-2.jpg",
+      "PackagePath": "staticwebassets/assets/img/testimonials/testimonials-2.jpg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/testimonials/testimonials-3.jpg",
+      "PackagePath": "staticwebassets/assets/img/testimonials/testimonials-3.jpg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/testimonials/testimonials-4.jpg",
+      "PackagePath": "staticwebassets/assets/img/testimonials/testimonials-4.jpg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/img/testimonials/testimonials-5.jpg",
+      "PackagePath": "staticwebassets/assets/img/testimonials/testimonials-5.jpg"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/js/main.js",
+      "PackagePath": "staticwebassets/assets/js/main.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/aos/aos.cjs.js",
+      "PackagePath": "staticwebassets/assets/vendor/aos/aos.cjs.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/aos/aos.css",
+      "PackagePath": "staticwebassets/assets/vendor/aos/aos.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/aos/aos.esm.js",
+      "PackagePath": "staticwebassets/assets/vendor/aos/aos.esm.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/aos/aos.js",
+      "PackagePath": "staticwebassets/assets/vendor/aos/aos.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/aos/aos.js.map",
+      "PackagePath": "staticwebassets/assets/vendor/aos/aos.js.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap-icons/bootstrap-icons.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap-icons/bootstrap-icons.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap-icons/bootstrap-icons.json",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap-icons/bootstrap-icons.json"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap-icons/bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap-icons/bootstrap-icons.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap-icons/bootstrap-icons.scss",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap-icons/bootstrap-icons.scss"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/js/bootstrap.js",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/bootstrap/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/assets/vendor/bootstrap/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/glightbox/css/glightbox.css",
+      "PackagePath": "staticwebassets/assets/vendor/glightbox/css/glightbox.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/glightbox/css/glightbox.min.css",
+      "PackagePath": "staticwebassets/assets/vendor/glightbox/css/glightbox.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/glightbox/js/glightbox.js",
+      "PackagePath": "staticwebassets/assets/vendor/glightbox/js/glightbox.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/glightbox/js/glightbox.min.js",
+      "PackagePath": "staticwebassets/assets/vendor/glightbox/js/glightbox.min.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/isotope-layout/isotope.pkgd.js",
+      "PackagePath": "staticwebassets/assets/vendor/isotope-layout/isotope.pkgd.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/isotope-layout/isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets/assets/vendor/isotope-layout/isotope.pkgd.min.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/php-email-form/validate.js",
+      "PackagePath": "staticwebassets/assets/vendor/php-email-form/validate.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/purecounter/purecounter_vanilla.js",
+      "PackagePath": "staticwebassets/assets/vendor/purecounter/purecounter_vanilla.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/purecounter/purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets/assets/vendor/purecounter/purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/swiper/swiper-bundle.min.css",
+      "PackagePath": "staticwebassets/assets/vendor/swiper/swiper-bundle.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/swiper/swiper-bundle.min.js",
+      "PackagePath": "staticwebassets/assets/vendor/swiper/swiper-bundle.min.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/swiper/swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets/assets/vendor/swiper/swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/typed.js/typed.cjs",
+      "PackagePath": "staticwebassets/assets/vendor/typed.js/typed.cjs"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/typed.js/typed.cjs.map",
+      "PackagePath": "staticwebassets/assets/vendor/typed.js/typed.cjs.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/typed.js/typed.module.js",
+      "PackagePath": "staticwebassets/assets/vendor/typed.js/typed.module.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/typed.js/typed.module.js.map",
+      "PackagePath": "staticwebassets/assets/vendor/typed.js/typed.module.js.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/typed.js/typed.umd.js",
+      "PackagePath": "staticwebassets/assets/vendor/typed.js/typed.umd.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/typed.js/typed.umd.js.map",
+      "PackagePath": "staticwebassets/assets/vendor/typed.js/typed.umd.js.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/assets/vendor/waypoints/noframework.waypoints.js",
+      "PackagePath": "staticwebassets/assets/vendor/waypoints/noframework.waypoints.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/omerkargali/Desktop/MyProje/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.MyProje.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.MyProje.props",
+      "PackagePath": "build\\MyProje.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.MyProje.props",
+      "PackagePath": "buildMultiTargeting\\MyProje.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.MyProje.props",
+      "PackagePath": "buildTransitive\\MyProje.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

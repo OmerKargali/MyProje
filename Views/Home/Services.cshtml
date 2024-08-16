@@ -1,0 +1,80 @@
+@* @model IndexViewModel
+@{
+ViewData["Title"] = "Home Page";
+List<Proje>? liste_projeler = null;
+if (Model != null)
+{
+liste_projeler = Model.list_Proje;
+}
+}
+<!-- Services Section -->
+<section id="services" class="services section">
+
+<!-- Section Title -->
+<div class="container section-title aos-init aos-animate" data-aos="fade-up">
+<h2>Başvurularım</h2>
+<p>Aşağıda, geçmişte başvuruda bulunduğunuz GSB projelerini ve her bir başvurunuzun güncel durumunu detaylı olarak
+inceleyebilirsiniz. Başvurularınızın durumu hakkında güncel bilgilere kolayca erişebilirsiniz.</p>
+</div><!-- End Section Title -->
+
+<div class="container">
+<div class="row gy-4">
+@if (liste_projeler != null)
+{
+@foreach (var x in liste_projeler)
+{
+<div class="col-lg-4 col-md-6 service-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+<div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+<div>
+<h4 class="title"><a href="" class="stretched-link">@x.ProjeAdi</a></h4>
+<p class="description">@x.ProjeDetay</p>
+</div>
+</div>
+}
+}
+<!-- End Service Item -->
+
+</div>
+</div>
+</section>
+<!-- /Services Section -->
+
+*@
+
+@model IndexViewModel
+@{
+  ViewData["Title"] = "Home Page";
+}
+<!-- Services Section -->
+<section id="services" class="services section">
+
+  <!-- Section Title -->
+  <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+    <h2>Başvurularım</h2>
+    <p>Aşağıda, geçmişte başvuruda bulunduğunuz GSB projelerini ve her bir başvurunuzun güncel durumunu detaylı olarak
+      inceleyebilirsiniz. Başvurularınızın durumu hakkında güncel bilgilere kolayca erişebilirsiniz.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="row gy-4">
+      @if (Model.list_cstBasvuru != null)
+      {
+        @foreach (var x in Model.list_cstBasvuru)
+        {
+          <div class="col-lg-4 col-md-6 service-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+            <div>
+              <h4 class="title"><a href="" class="stretched-link">@x.ProjeAdi</a></h4>
+              <p class="description">@x.ProjeDetay</p>
+              <p class="description">@x.ProjeKisaBilgi</p>
+              <p class="description">@x.Durum</p>
+            </div>
+          </div>
+        }
+      }
+      <!-- End Service Item -->
+
+    </div>
+  </div>
+</section>
+<!-- /Services Section -->

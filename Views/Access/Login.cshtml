@@ -1,0 +1,225 @@
+@model MyProje.Models.VMLogin;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            width: 100%;
+            background-image: url(/assets/img/ArkaPlanFotoGSB.jpeg);
+            background-size: 25%;
+        }
+
+        .main-form {
+            position: relative;
+            width: 450px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid white;
+            border-radius: 35px;
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        h2 {
+            font-size: 2.1em;
+            color: white;
+            text-align: center;
+        }
+
+        .form-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .input1 {
+            position: relative;
+            margin: 30px 0;
+            width: 320px;
+            border-bottom: 2px solid white;
+        }
+
+        .input1 label {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            color: white;
+            font-size: 1em;
+            pointer-events: none;
+            transition: 0.3s ease all;
+        }
+
+        .input1 input {
+            width: 100%;
+            background: none;
+            border: none;
+            outline: none;
+            padding: 10px 0;
+            font-size: 1em;
+            color: white;
+        }
+
+        .input1 input:focus~label,
+        .input1 input:valid~label {
+            top: 0;
+            transform: translateY(-100%);
+            font-size: 1em;
+            color: #f0f0f0;
+        }
+
+        .input1 ion-icon {
+            position: absolute;
+            color: white;
+            font-size: 1.3em;
+            top: -1px;
+            right: 8px;
+        }
+
+        .forgot {
+            margin: -16px 0 16px;
+            font-size: 0.9em;
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+
+        .forgot label a {
+            margin-right: 3px;
+            text-decoration: none;
+            font-size: 0.9em;
+            color: white;
+        }
+
+        button {
+            width: 100%;
+            height: 45px;
+            background-color: white;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 700;
+            border: 25px;
+            border-radius: 5px;
+        }
+
+        .register {
+            font-size: 0.9em;
+            color: white;
+            text-align: center;
+            margin: 25px 0;
+        }
+
+        .register p a {
+            text-decoration: none;
+            color: white;
+            font-weight: 800;
+        }
+
+        .register p a:hover {
+            text-decoration: underline;
+        }
+
+        .e-devlet-button {
+            background-color: #e30000;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+
+        .e-devlet-button {
+            background-color: #c20000;
+        }
+
+        .e-devlet-button i {
+            margin-right: 6px;
+        }
+
+        .e-devlet-button span {
+            margin-right: 20px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <section>
+        <div class="main-form">
+            <div class="form-content">
+                <form asp-controller="Access" asp-action="Login" method="post">
+                    <h2>Giriş Yap</h2>
+                    <div class="input1">
+                        <input type="text" name="adi" asp-for="Adi">
+                        <label for="adi">Adınız</label>
+                        <ion-icon name="accessibility"></ion-icon>
+                    </div>
+                    <div class="input1">
+                        <input type="password" name="sifre" asp-for="Sifre">
+                        <label for="sifre">Şifre</label>
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </div>
+                    <div class="forgot">
+                        <input type="checkbox">
+                        <label for="Remember">Beni Hatırla ||<a href="/Access/ForgotPassword">Şifremi
+                                Unuttum</a></label>
+                    </div>
+                    <button>Giriş Yap</button>
+                    <div class="register">
+                        <p>Hesabım Yok <a href="/Access/Create">Kayıt Ol</a></p>
+                    </div>
+                    <div>
+                        <button href="https://www.turkiye.gov.tr" class="e-devlet-button" target="_blank">
+                            <span>E-devlet ile Giriş Yap</span>
+                            <i class="fas fa-id-card"></i>
+                        </button>
+                    </div>
+
+                    @if (ViewData["ValidateMessage"] != null)
+                    {
+                        <br />
+                        <br />
+                        <label>@ViewData["ValidateMessage"]</label>
+                    }
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

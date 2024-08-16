@@ -1,0 +1,61 @@
+@model VMProje
+@{
+
+  ViewData["Title"] = "Home Page";
+
+  List<Proje> liste = null;
+  if (Model != null)
+  {
+    liste = Model.list_Proje;
+  }
+}
+
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio section -background">
+
+  <!-- Section Title -->
+  <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+    <h2>Portföy</h2>
+    <p>Aşağıda Gençlik ve Spor Bakanlığı tarafından gerçekleştirilen çeşitli projeler gösterilmektedir. Aşağıda bulunan
+      projelerden istediğinizi seçerek detaylarını görebilir, başvuru yapabilirsiniz.</p>
+  </div><!-- End Section Title -->
+  <div class="container">
+
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+      <ul class="portfolio-filters isotope-filters aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        <li data-filter="*" class="filter-active">Hepsi</li>
+        <li data-filter=".filter-app">Sosyal</li>
+        <li data-filter=".filter-product">Yurt</li>
+        <li data-filter=".filter-branding">Gençlik Değişimleri</li>
+        <li data-filter=".filter-books">Yarışma</li>
+      </ul><!-- End Portfolio Filters -->
+
+      <div class="row gy-4 isotope-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200"
+        style="display: flex; flex-wrap: wrap; gap: 10px; height: 100%px;">
+
+
+        @foreach (var x in liste)
+        {
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" style="flex: 0 1 calc(33.333% - 10px);">
+            <div class="portfolio-content h-100">
+              <img src="@x.ProjeFoto" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>@x.Kategori</h4>
+                <p>@x.ProjeAdi Detayları</p>
+                <a href="@x.ProjeFoto" title="App 1" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="/Home/PortfolioDetay/@x.ProjeId" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div>
+        }
+        <!-- End Portfolio Item -->
+      </div>
+      <!-- End Portfolio Container -->
+    </div>
+  </div>
+</section>
+<!-- /Portfolio Section -->

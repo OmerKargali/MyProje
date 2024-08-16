@@ -1,0 +1,89 @@
+@model VMKullanici
+@{
+  ViewData["Title"] = "Özgeçmiş";
+  Kullanici? entity_Kullanici = null;
+  if (Model != null)
+  {
+    entity_Kullanici = Model.entity_Kullanici;
+  }
+}
+@if (entity_Kullanici != null)
+{
+  <!-- Resume Section -->
+  <section id="resume" class="resume section">
+
+  <!-- Section Title -->
+  <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+    <h2>Özgeçmiş</h2>
+    <p>@entity_Kullanici.Ozgecmis</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="resume-title">Özet</h3>
+        <div class="resume-item pb-0">
+          <h4>Brandon Johnson</h4>
+          <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing
+              user-centered digital/print marketing material from initial concept to final, polished deliverable.</em>
+          </p>
+          <ul>
+            <li>Portland par 127,Orlando, FL</li>
+            <li>(123) 456-7891</li>
+            <li>alice.barkley@example.com</li>
+          </ul>
+        </div><!-- Edn Resume Item -->
+
+        <h3 class="resume-title">Eğitim</h3>
+        <div class="resume-item">
+          <h4>Güzel Sanatlar Yüksek Lisansı &amp; Grafik Tasarımı</h4>
+          <h5>2015 - 2016</h5>
+          <p><em>Rochester Teknoloji Enstitüsü, Rochester, NY</em></p>
+          <p>Grafik tasarımı ve sanat konularında kapsamlı bir eğitim aldım. Yaratıcı projeler ve uygulamalı deneyimler
+            kazandım.</p>
+        </div><!-- Edn Resume Item -->
+
+        <div class="resume-item">
+          <h4>Güzel Sanatlar Lisans &amp; Grafik Tasarımı</h4>
+          <h5>2010 - 2014</h5>
+          <p><em>Rochester Teknoloji Enstitüsü, Rochester, NY</em></p>
+          <p>Sanat ve grafik tasarımı alanında geniş bir eğitim aldım. Yaratıcı projelerde yer aldım ve bu alandaki
+            becerilerimi geliştirdim.</p>
+        </div><!-- Resume Item Sonu -->
+      </div>
+
+
+      <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+        <h3 class="resume-title">Profesyonel Deneyim</h3>
+
+        <div class="resume-item">
+          <h4>Kıdemli Grafik Tasarım Uzmanı</h4>
+          <h5>2019 - Günümüz</h5>
+          <p><em>Experion, New York, NY</em></p>
+          <ul>
+            <li>Grafik, düzen ve üretim iletişim materyallerinin tasarım, geliştirme ve uygulanmasında liderlik yapma
+            </li>
+            <li>Tasarım ekibindeki 7 üyenin görevlerini belirleyip projelerin her aşamasında danışmanlık yapma</li>
+            <li>Tüm grafik materyallerin kalite ve doğruluğunu sağlamak amacıyla değerlendirilmesini denetleme</li>
+            <li>Üretim projelerinin bütçelerini $2,000 - $25,000 arası etkin bir şekilde yönetme</li>
+          </ul>
+        </div><!-- Resume Item Sonu -->
+
+        <div class="resume-item">
+          <h4>Grafik Tasarım Uzmanı</h4>
+          <h5>2017 - 2018</h5>
+          <p><em>Stepping Stone Reklamcılık, New York, NY</em></p>
+          <ul>
+            <li>Çeşitli pazarlama programları (logolar, broşürler, infografikler, sunumlar ve reklamlardan) geliştirdim
+            </li>
+            <li>Basınç altında iken aynı anda 5'e kadar projeyi veya görevi yönettim</li>
+            <li>Müşterilere en uygun grafik tasarımı önerme ve danışmanlık yapma</li>
+            <li>Aylık olarak 4'ten fazla tasarım sunumu ve öneri hazırladım</li>
+          </ul>
+        </div><!-- Resume Item Sonu -->
+      </div>
+    </div>
+  </div>
+</section>
+}
+<!-- /Resume Section -->

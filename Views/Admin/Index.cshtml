@@ -1,0 +1,183 @@
+@model IEnumerable<Proje>
+@{
+    Layout = null;
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+    <!-- Link Style CSS -->
+    <link rel="stylesheet" href="/assets/css/dashboard.css">
+    <title>Admin Page</title>
+</head>
+
+<body>
+    <!--  -->
+    <div class="mainContainer">
+
+        <!-- Navbar -->
+        <div class="navbar">
+            <div class="logo">
+                <h2></h2>
+            </div>
+            <div class="SearchBox">
+                <input type="text" id="search" placeholder="Arama Yapınız...">
+                <label for="search"><i class="fas fa-search"></i></label>
+            </div>
+            <div class="SideBar"></div>
+            <i class="fas fa-bell"></i>
+            <div class="user">
+                <img src="/assets/img/admin.jpg" alt="">
+            </div>
+        </div>
+        <!-- Navbar -->
+
+        <!-- SideBar -->
+        <div class="SideBar">
+            <ul>
+                <li><a href="/Admin/Index" class="active"><i class="bi bi-house navicon"></i>Anasayfa</a></li>
+                <li><a href="/Admin/YeniProje" class="active"><i class="bi bi-house navicon"></i>Proje Ekle</a></li>
+                <li><a href="/Admin/BasvuruYonet" class="active"><i class="bi bi-house navicon"></i>Başvuru Yönet</a>
+                </li>
+
+                <li><a class="active" asp-controller="Admin" asp-area="" asp-action="LogOut"><i
+                            class="bi bi-house navicon"></i>Çıkış</a></li>
+            </ul>
+            </nav>
+        </div>
+
+        <!-- Main -->
+        <div class="Main">
+            <div class="MainCard">
+                <div class="Card">
+                    <div class="content">
+                        <div class="num">4</div>
+                        <div class="name">Kategori Sayisi</div>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-list"></i>
+                    </div>
+                </div>
+
+                <div class="Card">
+                    <div class="content">
+                        <div class="num">20</div>
+                        <div class="name">Açık Basvuru Sayısı</div>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                </div>
+
+                <div class="Card">
+                    <div class="content">
+                        <div class="num">5500</div>
+                        <div class="name">Yapılan Başvuru Sayısı</div>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+
+                <div class="Card">
+                    <div class="content">
+                        <div class="num">150</div>
+                        <div class="name">Süresi Geçmiş Başvuru Sayısı</div>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts -->
+            <div class="MainChart">
+                <div class="Chart">
+                    <h1>Projeler</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Adı</th>
+                                <th>Baş. Tarih</th>
+                                <th>Bitiş Tarihi</th>
+                                <th>Sil</th>
+                                <th>Düzenle</th>
+                            </tr>
+                        </thead>
+
+                        @foreach (var x in Model)
+                        {
+                            <tbody>
+                                <tr>
+                                    <td>@x.ProjeId</td>
+                                    <td>@x.ProjeAdi</td>
+                                    <td>12.07.2023</td>
+                                    <td>27.08.2024</td>
+                                    <td><a href="/Admin/ProjeSil/?ProjeId=@(x.ProjeId)" class="btn btn-danger"
+                                            onclick="javascript:return confirm('Silmek istiyor musunuz?')">X</a>
+                                    </td>
+                                    <td><a href="/Admin/ProjeGetir/?ProjeId=@(x.ProjeId)"
+                                            class="btn btn-success">Düzenle</a></td>
+                                </tr>
+                            </tbody>
+                        }
+                    </table>
+                </div>
+
+                <div class="Chart doughnut-chart">
+                    <h1>Kategoriler</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Kategori İsmi</th>
+                                <th>Bağlı Başvuru Sayısı</th>
+                                <th>Kategori Detay</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Sosyal</td>
+                                <td>3</td>
+                                <td><a href="#" class="btn btn-success">İncele</a></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Yurt</td>
+                                <td>3</td>
+                                <td><a href="#" class="btn btn-success">İncele</a></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Gençlik Değişimleri</td>
+                                <td>3</td>
+                                <td><a href="#" class="btn btn-success">İncele</a></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Yarışma</td>
+                                <td>3</td>
+                                <td><a href="#" class="btn btn-success">İncele</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <!-- Custom JS -->
+    <script src=""></script>
+</body>
+
+</html>

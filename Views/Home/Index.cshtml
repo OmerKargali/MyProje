@@ -1,0 +1,33 @@
+﻿@model VMKullanici
+@{
+  ViewData["Title"] = "Anasayfa";
+  Kullanici? entity_Kullanici = null;
+  if (Model != null)
+  {
+    entity_Kullanici = Model.entity_Kullanici;
+  }
+}
+
+@if (entity_Kullanici != null)
+{
+  <!-- Hero Section -->
+  <section id="hero" class="hero section dark-background">
+  <img src="/assets/img/ArkaPlanFotoGSB.jpeg" alt="" data-aos="fade-in" class="aos-init aos-animate">
+
+  <div class="container section-title aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+    <h2>@entity_Kullanici.Adi @entity_Kullanici.Soyadi</h2>
+    <p>I'm <span class="typed" data-typed-items="@entity_Kullanici.Adi @entity_Kullanici.Soyadi"></span>
+      <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
+        class="typed-cursor typed-cursor--blink" aria-hidden="true">
+      </span>
+    </p>
+  </div>
+</section>
+}
+<!-- /Hero Section -->
+
+
+
+<!-- Scroll Top -->
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+    class="bi bi-arrow-up-short"></i></a>
